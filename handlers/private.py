@@ -9,22 +9,22 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""I am **{bn}** !!
-I let you play music in your group's voice chat 😉
-The commands I currently support are:
-⚜️ /play - __Plays the replied audio file or YouTube video through link.__
-⚜️ /pause - __Pause Voice Chat Music.__
-⚜️ /resume - __Resume Voice Chat Music.__
-⚜️ /skip - __Skips the current Music Playing In Voice Chat.__
-⚜️ /stop - __Clears The Queue as well as ends Voice Chat Music.__
+Grubunuzun sesli sohbetinde müzik çalmanıza izin 😉
+Şu anda desteklediğim komutlar şunlardır:
+⚜️ /play - yanıtlanan ses dosyasını veya YouTube videosunu link.__ aracılığıyla __Plays
+⚜️ /pause - Sesli Sohbet Music.__ __Pause
+⚜️ /resume - sesli sohbet Music.__ __Resume
+⚜️ /skip - Geçerli Ses Chat.__ Çalan Müzik __Skips
+⚜️ /stop - Sırayı __Clears ve Sesli Sohbet Müziği'ni sonlandırın.__
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Group 💬", url="https://t.me/hellbot_official_chat"
+                        "Group 💬", url="https://t.me/OlympusCh4t"
                     ),
                     InlineKeyboardButton(
-                        "Channel 📣", url="https://t.me/hellbot_official"
+                        "Channel 📣", url="https://t.me/WylineVoiceHelp"
                     )
                 ]
             ]
